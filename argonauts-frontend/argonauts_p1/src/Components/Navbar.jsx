@@ -29,9 +29,7 @@ function Navbar() {
           <Link to="/about" className="hover:text-blue-400">
           · About Us
           </Link>
-          <Link to="/contact" className="hover:text-blue-400">
-          · Contact
-          </Link>
+
           <Link to="/chatbot" className="hover:text-blue-400">
           · ChatBot
           </Link>
@@ -39,15 +37,11 @@ function Navbar() {
           · Map
           </Link>
         </div>
-
+        <Link to="/howToUse" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition">
+          How to use
+          </Link>
         {/* Search bar */}
-        <div>
-          <input
-            type="text"
-            placeholder="🔎Search..."
-            className="px-3 py-1 rounded-lg text-black bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
-          />
-        </div>
+
       </div>
     </div>
   );

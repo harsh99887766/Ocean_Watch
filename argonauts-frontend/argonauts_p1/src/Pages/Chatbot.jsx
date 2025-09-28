@@ -136,10 +136,10 @@ function Chatbot() {
 
   // Sample queries for quick access
   const sampleQueries = [
-    "Show data for argo_point_22",
-    "Find argo_id for temperature 3.2",
-    "What is the salinity in northern_subtropical region?",
-    "Show argo floats with temperature above 20°C"
+  'Show me salinity profiles near the equator in March 2025.',
+  'Tell me about argo id 7902246.',
+  'Give me the depth profile of float 7902246 for cycle 5.',
+  'Explain salinity variations in the equatorial region.',
   ];
 
   return (
